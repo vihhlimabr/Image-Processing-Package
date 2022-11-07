@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as f:
     page_description = f.read()
 
-#with open("requirements.txt") as f:
- #   requirements = f.read().splitlines()
+with open("requirements.txt") as f:
+    requirements = f.read().splitlines()
 
 setup(
     name="vihhlima_image_processsing",
